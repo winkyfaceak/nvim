@@ -5,9 +5,8 @@ My personal neovim config
 Run via nix:
 
 ```sh
-nix run github:isabelroses/nvim
+nix run github:winkyfaceak/nvim
 ```
 
 ### Thanks to
-- [nekowinston](https://github.com/nekowinston/neovim.drv)
-- [notashelf](https://github.com/NotAShelf/neovim-flake)
+- [isabelroses](https://github.com/isabelroses/nvim)
