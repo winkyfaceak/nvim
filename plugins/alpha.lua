@@ -30,7 +30,7 @@ return function()
 	local dashboard = require("alpha.themes.dashboard")
 
 	local header = {
-		"⠄⠄⠄⠄⠄⠄⠄⠄⣀⣀⣀⡀⠄⠄⠄⠄⠄⠄",
+		"⠄⠄⠄⠄⠄⠄⠄⠄⣀⣀⣀⡀⠄⠄⠄⠄⠄⠄    aaa",
 		"⠄⠄⠄⠄⠄⣠⣶⣿⣿⣿⣿⣿⣷⣦⡀⠄⠄⠄",
 		"⠄⠄⠄⠄⢰⢿⣿⣿⣿⡿⣿⣿⣿⣿⣷⠄⠄⠄",
 		"⠄⠄⠄⣠⢲⠛⣾⣥⢔⠖⢿⣝⢛⠋⣡⠄⠄⠄",
