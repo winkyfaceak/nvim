@@ -4,20 +4,21 @@ return function()
 			light = "latte",
 			dark = "mocha",
 		},
-			color_overrides = {
-				all = {
-					text = "#008080",
-				},
-				latte = {
-					base = "#52575F",
-					mantle = "#242424",
-					crust = "#474747",
-				},
 
-				frappe = {},
-				macchiato = {},
-				mocha = {},
+		color_overrides = {
+			all = {
+				text = "#008080",
+			},
+			latte = {
+				base = "#52575F",
+				mantle = "#242424",
+				crust = "#474747",
+			},
+			frappe = {},
+			macchiato = {},
+			mocha = {},
 		}
+	}
 		transparent_background = true,
 		styles = {
 			comments = { "italic" },
