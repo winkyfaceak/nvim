@@ -4,7 +4,7 @@ return function()
 			light = "latte",
 			dark = "mocha",
 		},
-		
+
 		color_overrides = {
 			all = {
 				text = "#008080",
@@ -18,7 +18,7 @@ return function()
 			macchiato = {},
 			mocha = {},
 		},
-	}
+		
 		transparent_background = true,
 		styles = {
 			comments = { "italic" },
