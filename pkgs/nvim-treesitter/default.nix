@@ -11,7 +11,7 @@
   inherit (nvplugins) nvim-treesitter;
 
   grammars = {
-    arduino = {};
+    #arduino = {};
     astro = {};
     awk = {};
     bash = {};
