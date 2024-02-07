@@ -17,7 +17,7 @@ return function()
 			frappe = {},
 			macchiato = {},
 			mocha = {},
-		}
+		},
 	}
 		transparent_background = true,
 		styles = {
