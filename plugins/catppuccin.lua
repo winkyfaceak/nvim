@@ -4,7 +4,7 @@ return function()
 			light = "latte",
 			dark = "mocha",
 		},
-
+		
 		color_overrides = {
 			all = {
 				text = "#008080",
