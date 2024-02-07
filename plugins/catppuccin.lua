@@ -11,14 +11,14 @@ return function()
 			},
 			latte = {
 				base = "#52575F",
-				mantle = "#242424",
-				crust = "#474747",
+				mantle = "#52575F",
+				crust = "#52575F",
 			},
 			frappe = {},
 			macchiato = {},
 			mocha = {},
 		},
-		
+
 		transparent_background = true,
 		styles = {
 			comments = { "italic" },
