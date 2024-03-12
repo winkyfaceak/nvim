@@ -73,7 +73,6 @@ return function()
 			},
 		},
 	}
-	dashboard.config.opts.noautocmd = true
 
 	theta.config.layout = {
 		{ type = "padding", val = 4 },

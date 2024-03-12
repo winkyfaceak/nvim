@@ -8,12 +8,15 @@
           # external deps
           fd
           git
+          gh
           ripgrep
+          wakatime
           lazygit
+          direnv
+          silicon
 
           # python
-          black
-          isort
+          ruff
           nodePackages.pyright
 
           # lua

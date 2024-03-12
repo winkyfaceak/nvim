@@ -39,7 +39,7 @@ end
 
 -- require("copilot_cmp").setup() -- setup copilot cmp
 cmp.setup({
-  snippet = {
+	snippet = {
 		expand = function(args)
 			luasnip.lsp_expand(args.body)
 		end,
@@ -53,18 +53,18 @@ cmp.setup({
 		["<C-y>"] = cmp.mapping.confirm({ select = true }),
 		["<C-e>"] = cmp.mapping.abort(),
 
-    ["<Tab>"] = cmp.mapping(function(fallback)
-      if cmp.visible() then
-			  cmp.select_next_item()
-		  elseif luasnip.expand_or_jumpable() then
-			  luasnip.expand_or_jump()
+		["<Tab>"] = cmp.mapping(function(fallback)
+			if cmp.visible() then
+				cmp.select_next_item()
+			elseif luasnip.expand_or_jumpable() then
+				luasnip.expand_or_jump()
 			elseif has_words_before() then
-			  cmp.complete()
-		  else
-			  fallback()
+				cmp.complete()
+			else
+				fallback()
 			end
 		end, { "i", "s" }),
-  }),
+	}),
 	sources = cmp.config.sources({
 		-- { name = "copilot" },
 		{ name = "nvim_lsp" },
@@ -140,7 +140,6 @@ require("isabel.lsp.webdev").setup(common)
 pcall(require("py_lsp").setup, common)
 
 local servers = {
-	"astro",
 	"bashls",
 	"dockerls",
 	"jqls",
@@ -149,8 +148,6 @@ local servers = {
 	"sourcekit",
 	"taplo",
 	"teal_ls",
-	"marksman",
-	"rust_analyzer",
 }
 
 for _, server in ipairs(servers) do

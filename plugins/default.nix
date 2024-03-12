@@ -206,6 +206,16 @@ in rec {
     };
   };
 
+  # rust lsp
+  rustaceanvim = {
+    src = srcs.rustaceanvim;
+    config = ./rust.lua;
+    ft = "rust";
+    dependencies = {
+      inherit which-key;
+    };
+  };
+
   nvim-lspconfig = {
     src = srcs.nvim-lspconfig;
     config = ./lsp.lua;
@@ -257,8 +267,23 @@ in rec {
     };
   };
 
+  # hide my secrets
+  cloak = {
+    src = srcs.cloak;
+    config = ./cloak.lua;
+  };
+
   # misc
   wakatime.src = pkgs.vimPlugins.vim-wakatime; # track my time coding
+  direnv.src = srcs.direnv-vim; # direnv integration
+  undotree.src = srcs.undotree; # undo tree
+
+  nvim-silicon = {
+    src = srcs.nvim-silicon;
+    config = ./silicon.lua;
+  };
+
+  # lazygit integration
   lazygit = {
     src = srcs.lazygit;
     dependencies = {inherit plenary;};

@@ -6,6 +6,10 @@ src.git = "https://github.com/goolord/alpha-nvim"
 fetch.github = "catppuccin/nvim"
 src.git = "https://github.com/catppuccin/nvim"
 
+[cloak]
+fetch.github = "laytan/cloak.nvim"
+src.git = "https://github.com/laytan/cloak.nvim"
+
 [cmp-buffer]
 fetch.github = "hrsh7th/cmp-buffer"
 src.git = "https://github.com/hrsh7th/cmp-buffer"
@@ -41,6 +45,10 @@ src.git = "https://github.com/zbirenbaum/copilot-cmp"
 [crates]
 fetch.github = "saecki/crates.nvim"
 src.git = "https://github.com/saecki/crates.nvim"
+
+[direnv-vim]
+fetch.github = "direnv/direnv.vim"
+src.git = "https://github.com/direnv/direnv.vim"
 
 [editorconfig]
 fetch.github = "gpanders/editorconfig.nvim"
@@ -124,6 +132,10 @@ src.git = "https://github.com/SmiteshP/nvim-navic"
 fetch.github = "rcarriga/nvim-notify"
 src.git = "https://github.com/rcarriga/nvim-notify"
 
+[nvim-silicon]
+fetch.github = "michaelrommel/nvim-silicon"
+src.git = "https://github.com/michaelrommel/nvim-silicon"
+
 [nvim-tree-lua]
 fetch.github = "nvim-tree/nvim-tree.lua"
 src.git = "https://github.com/nvim-tree/nvim-tree.lua"
@@ -155,6 +167,10 @@ src.git = "https://github.com/hallerpatrick/py_lsp.nvim"
 [rainbow-delimiters]
 fetch.github = "hiphish/rainbow-delimiters.nvim"
 src.git = "https://github.com/hiphish/rainbow-delimiters.nvim"
+
+[rustaceanvim]
+fetch.github = "mrcjkb/rustaceanvim"
+src.git = "https://github.com/mrcjkb/rustaceanvim"
 
 [schemastore]
 fetch.github = "b0o/schemastore.nvim"
@@ -191,6 +207,10 @@ src.git = "https://github.com/folke/trouble.nvim"
 [typescript-tools]
 fetch.github = "pmizio/typescript-tools.nvim"
 src.git = "https://github.com/pmizio/typescript-tools.nvim"
+
+[undotree]
+fetch.github = "mbbill/undotree"
+src.git = "https://github.com/mbbill/undotree"
 
 [vim-fugitive]
 fetch.github = "tpope/vim-fugitive"
